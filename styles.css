@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -42,6 +42,119 @@ article {
     padding: 20px;
 		
 }
+
+*/
+
+
+/* ===== Original Base Styles (Preserved) ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 1366px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* ===== Modern Enhancements ===== */
+
+/* Hamburger button */
+.menu-toggle {
+    display: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Smooth hover */
+nav a:hover {
+    color: #ffd700;
+}
+
+/* ===== Mobile Styles ===== */
+@media (max-width: 600px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav ul.show {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    article {
+        padding: 15px;
+    }
+}
+
+/* ===== Tablet Styles ===== */
+@media (min-width: 601px) and (max-width: 900px) {
+
+    nav ul li {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
 
 
 /* Main Link */
@@ -197,4 +310,5 @@ footer {
 }
 
 .scroll-to-top-button:hover {
+
     background-color: #008000; 
