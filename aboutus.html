@@ -10,7 +10,8 @@
     <header>
         <h1> <a href="https://www.youtube.com/c/DarshanTechSolution2020" target="new" class="custom-link">  Darshan Tech Solution </a></h1>
         <nav>
-            <ul>
+			<button class="menu-toggle" onclick="toggleMenu()"> ☰ Menu </button>button>
+            <ul id="navMenu">
 				<li><a href="index.html" class="custom-link2"><b>Home</b></a></li> 
 				<li><a href="Online Services.html"class="custom-link2"><b>Online Services</b></a></li>
 				<li><a href="System Trouble Shoot.html" class="custom-link2"><b>System Troubleshoot</b></a></li>
@@ -39,11 +40,16 @@
 
         <!-- More articles can be added here -->
     </main>
-    
+    <script>
+	function toggleMenu() {
+		document.getElementById("navMenu").classList.toggle("show");
+	}
+</script> 
     <footer>
 		 <p> <a href="websitepolicy.html" class="custom-link2"><b>Website Policy</b> | <a href="disclaimer.html" class="custom-link2"><b>Disclaimer</b> | <a href="aboutus.html" class="custom-link2"><b>About us</b> | <a href="contactus.html" class="custom-link2"><b>Contact us</b>  </a> |  &copy; 2026 <a href="https://www.youtube.com/c/DarshanTechSolution2020" target="new" class="custom-link">  Darshan Tech Solution</a> </p> 
     </footer>
 </body>
 </html>
+
 
 
