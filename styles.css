@@ -168,10 +168,10 @@ footer {
             color: #fff;
             text-align: center;
             /*padding: 1px; */
-            position: fixed;
-            bottom: 0;
+            position: relative;
             width: 100%; 
-						
+			padding: 10px;
+					
         }
 
 /*youube video */
@@ -269,5 +269,6 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
