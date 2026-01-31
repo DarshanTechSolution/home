@@ -118,7 +118,12 @@ nav a:hover {
     width: auto;
     max-width: none;
 }
+ /* Table */
 
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
 
 /* Main Link */
 .custom-link {
@@ -275,6 +280,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
