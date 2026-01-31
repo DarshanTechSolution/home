@@ -125,6 +125,42 @@ nav a:hover {
     overflow-x: auto;
 }
 
+/* ===== TABLE  DETAILS TABLE ===== */
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details-table td {
+    border: 1px solid #000;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.details-table td:first-child {
+    width: 35%;
+    background-color: #f4f4f4;
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+    .details-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .details-table tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .details-table td:first-child {
+        font-weight: bold;
+        background: #eaeaea;
+    }
+}
+
+
 /* Main Link */
 .custom-link {
     color: orange; /* Set the initial color */
@@ -280,6 +316,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
