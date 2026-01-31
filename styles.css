@@ -131,35 +131,47 @@ nav a:hover {
     border-collapse: collapse;
 }
 
+.details-table th,
 .details-table td {
     border: 1px solid #000;
     padding: 12px;
     vertical-align: middle;
 }
 
-.details-table td:first-child {
+/* TH styling */
+.details-table th {
     width: 35%;
-    background-color: #f4f4f4;
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
 }
 
-/* Mobile optimization */
+/* TD styling */
+.details-table td {
+    background-color: #fff;
+}
+
+/* ===== MOBILE VIEW ===== */
 @media (max-width: 600px) {
+    .details-table,
+    .details-table tbody,
+    .details-table tr,
+    .details-table th,
     .details-table td {
         display: block;
         width: 100%;
     }
 
     .details-table tr {
-        display: block;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
 
-    .details-table td:first-child {
-        font-weight: bold;
-        background: #eaeaea;
+    .details-table th {
+        background: #e6e6e6;
+        border-bottom: none;
     }
 }
-
 
 /* Main Link */
 .custom-link {
@@ -316,6 +328,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
