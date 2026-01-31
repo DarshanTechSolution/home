@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 /* Responsive Images */
-img {
+.responsive-img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -275,6 +275,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
