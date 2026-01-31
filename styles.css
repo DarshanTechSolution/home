@@ -114,6 +114,12 @@ img {
     display: block;
 }
 
+.custom-link img {
+    width: auto;
+    max-width: none;
+}
+
+
 /* Main Link */
 .custom-link {
     color: orange; /* Set the initial color */
@@ -269,6 +275,7 @@ footer {
 .scroll-to-top-button:hover {
 
     background-color: #008000; 
+
 
 
 
