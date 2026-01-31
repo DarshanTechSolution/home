@@ -37,18 +37,18 @@
           <h3> <a href="https://youtu.be/-9WFnirwR-U?si=UpCD5p1LtGyqt9y0" target="_blank" class="custom-link"> Solution for Windows cannot connect to the Printer Error code 0X0000011b - Shared Printer Connecting Issue</a></h3>
 		  <div class="line-spaced">
 		  <h1> Shared printer is unable to connect for differenty types of Operating System. i.e., The share printer is unable to connect between Windows 10 and Windows 11. Here are the steps to follow to connect the shared printer for different operating systems.</h1>
-		  <img src="../images/printer3.png" alt="Printer Error" width="800">
+		  <img src="../images/printer3.png" alt="Printer Error" class="responsive-img">
 		  
 		  <p>1. Open Run Command (Win Key + R ) in Host Machin. (Printer is directly connected to the system)</p>
 		  <p>2. Type <b> regedit </b> </p>
 		  <p>3. Expand the path </p>
 		  <p font style="color: maroon"> <b> Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print </b> </p>
-		  <img src="../images/printer4.png" alt="Printer Error" width="800">
+		  <img src="../images/printer4.png" alt="Printer Error" class="responsive-img">
 		 <ul>
 					<li>Right Click then New-->DWORD (32-bit)Value  </li>
-					 <img src="../images/printer5.png" alt="Printer Error" width="800">
+					 <img src="../images/printer5.png" alt="Printer Error" class="responsive-img">
 					<li> Type the key Value same what i'm typing here <b> RPCAuthnLevelPrivacyEnabled </b> and set value <b> 0 </b> </li>
-					<img src="../images/printer6.png" alt="Printer Error" width="800">
+					<img src="../images/printer6.png" alt="Printer Error" class="responsive-img">
 					<li> Open <b> Services.msc </b>  find the Printer spooler, Restart the services.</li>
 					<li> Thats All</li>
 		</ul>
@@ -112,3 +112,4 @@ document.addEventListener("DOMContentLoaded", function() {
 </body>
 
 </html>
+
